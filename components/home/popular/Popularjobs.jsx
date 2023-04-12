@@ -24,7 +24,7 @@ const Popularjobs = () => {
         {isLoading ? (
           <ActivityIndicator size='large' color={COLORS.primary} />
         ) : error ? (
-            <Text>Someting went wrong</Text>
+            <Text>Something went wrong</Text>
           ) : (
               <FlatList
                 data={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
@@ -35,11 +35,8 @@ const Popularjobs = () => {
                 contentContainerStyle={{ columnGap: SIZES.medium }}
                 horizontal
               />
-        )}
-        
-        
+        )}        
       </View>
-
     </View>
     
   )
