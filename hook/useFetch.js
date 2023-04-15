@@ -19,15 +19,6 @@ const useFetch = (endpoint, query) => {
     params: { ...query },
   };
 
-  //   axios
-  //     .request(options)
-  //     .then(function (response) {
-  //       console.log(response.data);
-  //     })
-  //     .catch(function (error) {
-  //       console.error(error);
-  //     });
-
   const fetchData = async () => {
     setIsLoading(true);
 
