@@ -1,0 +1,1 @@
+// APP url: https://expo.dev/@obomheire1/react_native_jobs_app?serviceType=classic&distribution=expo-go
